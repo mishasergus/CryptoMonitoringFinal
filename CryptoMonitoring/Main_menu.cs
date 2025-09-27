@@ -24,6 +24,7 @@ namespace CryptoMonitoring
             {
                 СryptoUC.AddCryptoButton(crypto.name);
             }
+            Profile_button.BackgroundImage = Image.FromFile(Program.users[Program.currentUserIndex].image);
         }
         private void leader_table_button_Click(object sender, EventArgs e)
         {
@@ -38,7 +39,8 @@ namespace CryptoMonitoring
 
         private void Profile_button_Click(object sender, EventArgs e)
         {
-
+            Profil_edit_form profil_Edit_Form = new Profil_edit_form();
+            profil_Edit_Form.Show();
         }
 
         private void game_button_Click(object sender, EventArgs e)
@@ -61,6 +63,7 @@ namespace CryptoMonitoring
         private void timer1_Tick(object sender, EventArgs e)
         {
             balance.Text = $"{Program.users[Program.currentUserIndex].balance}$";
+            Profile_button.BackgroundImage = Image.FromFile(Program.users[Program.currentUserIndex].image);
         }
     }
 }

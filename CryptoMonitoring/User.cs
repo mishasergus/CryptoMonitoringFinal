@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace CryptoMonitoring
 {
@@ -14,8 +16,10 @@ namespace CryptoMonitoring
         public double balance { get; set; }
         public List<Crypto> cryptos { get; set; }
         public List<bool> achievements { get; set; }
+        public string image { get; set; }
         public User(string username, string email, string password)
         {
+            this.image = "D:\\ITSTEP\\C#\\CryptoMonitoring-Tests-master\\CryptoMonitoring\\Resources\\profile_img.png";
             this.username = username;
             this.email = email;
             this.password = password;

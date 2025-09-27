@@ -36,17 +36,17 @@ namespace CryptoMonitoring
                 user.achievements[0] = true;
                 MessageBox.Show("Хороший капітал!", "Ви отримали досягнення 'Хороший капітал'!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            if (user.cryptos.Count >= 1 && !user.achievements[1])
+            if (user.cryptos.Count > 0 && !user.achievements[1])
             {
                 user.achievements[1] = true;
                 MessageBox.Show("Перша крипта!", "Ви отримали досягнення 'Перша крипта'!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            if (user.cryptos.Exists(c => c.name == "Bitcoin") && !user.achievements[2])
+            if (user.cryptos.Exists(c => c.name == "BTC") && !user.achievements[2])
             {
                 user.achievements[2] = true;
                 MessageBox.Show("Мрія зробити це в 2012 році", "Ви отримали досягнення 'Мрія зробити це в 2012 році'!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            if (user.cryptos.Exists(c => c.name == "Ethereum") && !user.achievements[3])
+            if (user.cryptos.Exists(c => c.name == "ETH") && !user.achievements[3])
             {
                 user.achievements[3] = true;
                 MessageBox.Show("Мрія здійснилась", "Ви отримали досягнення 'Мрія здійснилась'!", MessageBoxButtons.OK, MessageBoxIcon.Information);
