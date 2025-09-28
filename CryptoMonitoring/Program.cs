@@ -6,6 +6,7 @@ namespace CryptoMonitoring
 
     internal static class Program
     {
+        public static int id_counter;
         public static List<User> users;
         public static int currentUserIndex;
         [STAThread]

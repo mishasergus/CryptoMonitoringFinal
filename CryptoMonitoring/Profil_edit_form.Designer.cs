@@ -31,6 +31,10 @@
             logo = new Button();
             picture_avatar = new PictureBox();
             button_brose_img = new Button();
+            label_name = new Label();
+            textbox_name = new TextBox();
+            label1 = new Label();
+            textbox_description = new TextBox();
             ((System.ComponentModel.ISupportInitialize)picture_avatar).BeginInit();
             SuspendLayout();
             // 
@@ -74,12 +78,67 @@
             button_brose_img.UseVisualStyleBackColor = false;
             button_brose_img.Click += button_brose_img_Click;
             // 
+            // label_name
+            // 
+            label_name.AutoSize = true;
+            label_name.Font = new Font("Arial Rounded MT Bold", 13.8F);
+            label_name.ForeColor = Color.Lime;
+            label_name.Location = new Point(12, 264);
+            label_name.Name = "label_name";
+            label_name.Size = new Size(84, 27);
+            label_name.TabIndex = 18;
+            label_name.Text = "Name:";
+            // 
+            // textbox_name
+            // 
+            textbox_name.BackColor = SystemColors.InactiveCaptionText;
+            textbox_name.BorderStyle = BorderStyle.None;
+            textbox_name.Cursor = Cursors.IBeam;
+            textbox_name.Font = new Font("Arial Rounded MT Bold", 12F);
+            textbox_name.ForeColor = Color.Lime;
+            textbox_name.Location = new Point(115, 267);
+            textbox_name.Name = "textbox_name";
+            textbox_name.Size = new Size(206, 24);
+            textbox_name.TabIndex = 17;
+            textbox_name.Text = "-";
+            textbox_name.TextChanged += textbox_name_TextChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Rounded MT Bold", 13.8F);
+            label1.ForeColor = Color.Lime;
+            label1.Location = new Point(12, 307);
+            label1.Name = "label1";
+            label1.Size = new Size(148, 27);
+            label1.TabIndex = 20;
+            label1.Text = "Description:";
+            // 
+            // textbox_description
+            // 
+            textbox_description.BackColor = SystemColors.InactiveCaptionText;
+            textbox_description.BorderStyle = BorderStyle.None;
+            textbox_description.Cursor = Cursors.IBeam;
+            textbox_description.Font = new Font("Arial Rounded MT Bold", 12F);
+            textbox_description.ForeColor = Color.Lime;
+            textbox_description.Location = new Point(161, 310);
+            textbox_description.Multiline = true;
+            textbox_description.Name = "textbox_description";
+            textbox_description.Size = new Size(160, 172);
+            textbox_description.TabIndex = 19;
+            textbox_description.Text = "-";
+            textbox_description.TextChanged += textbox_description_TextChanged;
+            // 
             // Profil_edit_form
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(333, 494);
+            Controls.Add(label1);
+            Controls.Add(textbox_description);
+            Controls.Add(label_name);
+            Controls.Add(textbox_name);
             Controls.Add(button_brose_img);
             Controls.Add(picture_avatar);
             Controls.Add(logo);
@@ -88,6 +147,7 @@
             Load += Profil_edit_form_Load;
             ((System.ComponentModel.ISupportInitialize)picture_avatar).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -95,5 +155,9 @@
         private Button logo;
         private PictureBox picture_avatar;
         private Button button_brose_img;
+        private Label label_name;
+        private TextBox textbox_name;
+        private Label label1;
+        private TextBox textbox_description;
     }
 }

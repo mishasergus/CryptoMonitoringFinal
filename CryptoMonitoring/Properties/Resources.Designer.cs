@@ -333,6 +333,16 @@ namespace CryptoMonitoring.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap plus_img {
+            get {
+                object obj = ResourceManager.GetObject("plus_img", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_dollar_icon_png_image_3729439 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-dollar-icon-png-image_3729439", resourceCulture);
@@ -383,6 +393,26 @@ namespace CryptoMonitoring.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap send_img {
+            get {
+                object obj = ResourceManager.GetObject("send_img", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shop_img {
+            get {
+                object obj = ResourceManager.GetObject("shop_img", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap upstat_avatar {
             get {
                 object obj = ResourceManager.GetObject("upstat_avatar", resourceCulture);
@@ -396,6 +426,16 @@ namespace CryptoMonitoring.Properties {
         internal static System.Drawing.Bitmap upstat_avatar1 {
             get {
                 object obj = ResourceManager.GetObject("upstat_avatar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap video_card_green_img {
+            get {
+                object obj = ResourceManager.GetObject("video_card_green_img", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

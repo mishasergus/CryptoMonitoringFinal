@@ -38,9 +38,10 @@
             Profile_button = new Button();
             chat_button = new Button();
             leader_table_button = new Button();
-            game_button = new Button();
+            crypto_farm_button = new Button();
             achivment_button = new Button();
             timer1 = new System.Windows.Forms.Timer(components);
+            shop_button = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -141,18 +142,18 @@
             leader_table_button.UseVisualStyleBackColor = false;
             leader_table_button.Click += leader_table_button_Click;
             // 
-            // game_button
+            // crypto_farm_button
             // 
-            game_button.BackColor = SystemColors.ActiveCaptionText;
-            game_button.BackgroundImage = (Image)resources.GetObject("game_button.BackgroundImage");
-            game_button.BackgroundImageLayout = ImageLayout.Stretch;
-            game_button.FlatStyle = FlatStyle.Popup;
-            game_button.Location = new Point(602, 27);
-            game_button.Name = "game_button";
-            game_button.Size = new Size(91, 84);
-            game_button.TabIndex = 11;
-            game_button.UseVisualStyleBackColor = false;
-            game_button.Click += game_button_Click;
+            crypto_farm_button.BackColor = SystemColors.ActiveCaptionText;
+            crypto_farm_button.BackgroundImage = Properties.Resources.video_card_green_img;
+            crypto_farm_button.BackgroundImageLayout = ImageLayout.Stretch;
+            crypto_farm_button.FlatStyle = FlatStyle.Popup;
+            crypto_farm_button.Location = new Point(602, 27);
+            crypto_farm_button.Name = "crypto_farm_button";
+            crypto_farm_button.Size = new Size(91, 84);
+            crypto_farm_button.TabIndex = 11;
+            crypto_farm_button.UseVisualStyleBackColor = false;
+            crypto_farm_button.Click += crypto_farm_button_Click;
             // 
             // achivment_button
             // 
@@ -173,14 +174,28 @@
             timer1.Interval = 1000;
             timer1.Tick += timer1_Tick;
             // 
+            // shop_button
+            // 
+            shop_button.BackColor = SystemColors.ActiveCaptionText;
+            shop_button.BackgroundImage = Properties.Resources.shop_img;
+            shop_button.BackgroundImageLayout = ImageLayout.Stretch;
+            shop_button.FlatStyle = FlatStyle.Popup;
+            shop_button.Location = new Point(795, 31);
+            shop_button.Name = "shop_button";
+            shop_button.Size = new Size(91, 84);
+            shop_button.TabIndex = 12;
+            shop_button.UseVisualStyleBackColor = false;
+            shop_button.Click += shop_button_Click;
+            // 
             // Main_menu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(1048, 495);
+            Controls.Add(shop_button);
             Controls.Add(achivment_button);
-            Controls.Add(game_button);
+            Controls.Add(crypto_farm_button);
             Controls.Add(leader_table_button);
             Controls.Add(chat_button);
             Controls.Add(Profile_button);
@@ -206,8 +221,9 @@
         private Button Profile_button;
         private Button chat_button;
         private Button leader_table_button;
-        private Button game_button;
+        private Button crypto_farm_button;
         private Button achivment_button;
         private System.Windows.Forms.Timer timer1;
+        private Button shop_button;
     }
 }

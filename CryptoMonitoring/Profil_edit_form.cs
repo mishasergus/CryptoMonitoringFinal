@@ -16,6 +16,9 @@ namespace CryptoMonitoring
         {
             InitializeComponent();
             picture_avatar.BackgroundImage = Image.FromFile(Program.users[Program.currentUserIndex].image);
+            textbox_name.Text = Program.users[Program.currentUserIndex].username;
+            textbox_description.Text = Program.users[Program.currentUserIndex].description;
+
         }
 
         private void Profil_edit_form_Load(object sender, EventArgs e)
@@ -33,6 +36,18 @@ namespace CryptoMonitoring
                 picture_avatar.BackgroundImage = Image.FromFile(Program.users[Program.currentUserIndex].image);
                 Program.SerialazeUsers();
             }
+        }
+
+        private void textbox_name_TextChanged(object sender, EventArgs e)
+        {
+            Program.users[Program.currentUserIndex].username = textbox_name.Text;
+            Program.SerialazeUsers();
+        }
+
+        private void textbox_description_TextChanged(object sender, EventArgs e)
+        {
+            Program.users[Program.currentUserIndex].description = textbox_description.Text;
+            Program.SerialazeUsers();
         }
     }
 }

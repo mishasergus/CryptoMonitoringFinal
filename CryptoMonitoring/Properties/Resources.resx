@@ -121,20 +121,23 @@
   <data name="Знімок екрана 2025-09-26 183804" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок екрана 2025-09-26 183804.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="165029-imac_color_matching_wallpaper_in_dark_purple_for_ipad_or_desktop-550x310" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\165029-imac_color_matching_wallpaper_in_dark_purple_for_ipad_or_desktop-550x310.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngtree-vector-degree-icon-png-image_326760" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngtree-vector-degree-icon-png-image_326760.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dollar_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dollar_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngtree-dollar-icon-png-image_3729439" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngtree-dollar-icon-png-image_3729439.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Знімок екрана 2025-09-24 015122" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок екрана 2025-09-24 015122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Знімок екрана 2025-09-24 015225" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок екрана 2025-09-24 015225.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="shop_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shop_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="send_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\send_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="laptop_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\laptop_avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,6 +163,9 @@
   <data name="Знімок екрана 2025-09-24 181114" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок екрана 2025-09-24 181114.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Знімок екрана 2025-09-24 181413" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Знімок екрана 2025-09-24 181413.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="istockphoto-1289562025-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1289562025-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,11 +187,14 @@
   <data name="icons8-achivement-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-achivement-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Знімок екрана 2025-09-24 015225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Знімок екрана 2025-09-24 015225.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Знімок екрана 2025-09-26 012142" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок екрана 2025-09-26 012142.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Знімок екрана 2025-09-26 185953" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок екрана 2025-09-26 185953.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-trophy-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-trophy-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Знімок екрана 2025-09-24 181341" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок екрана 2025-09-24 181341.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,14 +208,11 @@
   <data name="purse_img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\purse_img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="banan_logo_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\banan_logo_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="laptop_right_avatr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\laptop_right_avatr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ChatGPT Image 23 вер. 2025 р., 23_17_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT Image 23 вер. 2025 р., 23_17_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Знімок екрана 2025-09-24 181317" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Знімок екрана 2025-09-24 181317.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-trophy-1001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-trophy-1001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,11 +226,11 @@
   <data name="coins_avatar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coins_avatar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Знімок екрана 2025-09-24 181413" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок екрана 2025-09-24 181413.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngtree-dollar-icon-png-image_3729439" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-dollar-icon-png-image_3729439.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Знімок екрана 2025-09-24 181317" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок екрана 2025-09-24 181317.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ChatGPT Image 23 вер. 2025 р., 23_17_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 23 вер. 2025 р., 23_17_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Знімок екрана 2025-09-24 015149" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок екрана 2025-09-24 015149.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,11 +241,14 @@
   <data name="Знімок екрана 2025-09-24 181250" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок екрана 2025-09-24 181250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-sent-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-sent-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="babamc_logo_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\babamc_logo_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="165029-imac_color_matching_wallpaper_in_dark_purple_for_ipad_or_desktop-550x310" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\165029-imac_color_matching_wallpaper_in_dark_purple_for_ipad_or_desktop-550x310.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="banan_logo_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banan_logo_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Знімок екрана 2025-09-25 204724" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Знімок екрана 2025-09-25 204724.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,13 +271,16 @@
   <data name="upstat_avatar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\upstat_avatar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-trophy-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-trophy-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="video_card_green_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\video_card_green_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Знімок екрана 2025-09-26 185953" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Знімок екрана 2025-09-26 185953.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="emerald_avatr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\emerald_avatr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-sent-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-sent-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="plus_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

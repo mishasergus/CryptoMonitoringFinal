@@ -34,7 +34,8 @@ namespace CryptoMonitoring
 
         private void chat_button_Click(object sender, EventArgs e)
         {
-
+            Chat_form chat_Form = new Chat_form();
+            chat_Form.Show();
         }
 
         private void Profile_button_Click(object sender, EventArgs e)
@@ -43,10 +44,7 @@ namespace CryptoMonitoring
             profil_Edit_Form.Show();
         }
 
-        private void game_button_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void achivment_button_Click(object sender, EventArgs e)
         {
@@ -64,6 +62,17 @@ namespace CryptoMonitoring
         {
             balance.Text = $"{Program.users[Program.currentUserIndex].balance}$";
             Profile_button.BackgroundImage = Image.FromFile(Program.users[Program.currentUserIndex].image);
+        }
+
+        private void shop_button_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void crypto_farm_button_Click(object sender, EventArgs e)
+        {
+            Crypto_farm crypto_Farm = new Crypto_farm();
+            crypto_Farm.Show();
         }
     }
 }
